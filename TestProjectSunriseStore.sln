@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectSunriseStore", "TestProjectSunriseStore.csproj", "{C70BA48A-9F77-470C-B97F-12F2EC37C9AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProjectSunriseStore", "TestProjectSunriseStore.csproj", "{C70BA48A-9F77-470C-B97F-12F2EC37C9AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectSunriseStoreRegister", "..\TestProjectSunriseStoreRegister\TestProjectSunriseStoreRegister.csproj", "{786BEB90-59EB-4E04-9FF7-9DEEE35E2989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectSunriseStoreShop", "..\TestProjectSunriseStoreShop\TestProjectSunriseStoreShop.csproj", "{87940618-5EBC-4B9B-8751-F75E19C31D91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C70BA48A-9F77-470C-B97F-12F2EC37C9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C70BA48A-9F77-470C-B97F-12F2EC37C9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C70BA48A-9F77-470C-B97F-12F2EC37C9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786BEB90-59EB-4E04-9FF7-9DEEE35E2989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786BEB90-59EB-4E04-9FF7-9DEEE35E2989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786BEB90-59EB-4E04-9FF7-9DEEE35E2989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786BEB90-59EB-4E04-9FF7-9DEEE35E2989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87940618-5EBC-4B9B-8751-F75E19C31D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87940618-5EBC-4B9B-8751-F75E19C31D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87940618-5EBC-4B9B-8751-F75E19C31D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87940618-5EBC-4B9B-8751-F75E19C31D91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

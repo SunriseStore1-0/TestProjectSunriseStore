@@ -36,7 +36,18 @@ namespace TestProjectSunriseStore
         {
             //sprawdzenie czy znajdujemy siê na odpowiedniej stronie
             WebDriver.Navigate().GoToUrl(BaseUrl);
-            Assert.AreEqual("SunriseStore", WebDriver.Title);
+            String currentURL = WebDriver.Url;
+            Assert.AreEqual("http://localhost/Sklepik/loginPage.php", currentURL);
+        }
+        [Test]
+        public void StarterButtonTest()
+        {
+            //sprawdzenie czy przechodzimy na odpowiedni¹ stronê
+            WebDriver.Navigate().GoToUrl(BaseUrl);
+            var radioBstartButton = WebDriver.FindElement(By.Name("startButton"));
+            radioBstartButton.Click();
+            String currentURL = WebDriver.Url;
+            Assert.AreEqual("http://localhost/Sklepik/registerPage.php", currentURL);
         }
         [Test]
         public void RegisterButtonTest()
